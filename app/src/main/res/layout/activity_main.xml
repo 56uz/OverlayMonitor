@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="#FF121212">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="性能悬浮监控"
+        android:textColor="#FFFFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FPS · CPU · GPU · 电池温度"
+        android:textColor="#FF888888"
+        android:textSize="14sp"
+        android:layout_marginBottom="32dp"/>
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="悬浮窗权限：检测中..."
+        android:textColor="#FFFFEB3B"
+        android:textSize="14sp"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="220dp"
+        android:layout_height="48dp"
+        android:text="启动悬浮窗"
+        android:backgroundTint="#FF4CAF50"
+        android:textColor="#FFFFFFFF"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="220dp"
+        android:layout_height="48dp"
+        android:text="停止悬浮窗"
+        android:backgroundTint="#FFF44336"
+        android:textColor="#FFFFFFFF"
+        android:textSize="16sp"/>
+
+</LinearLayout>
